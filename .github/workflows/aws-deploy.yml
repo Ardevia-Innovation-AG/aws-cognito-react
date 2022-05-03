@@ -21,7 +21,7 @@ jobs:
         os: [ubuntu-latest]
         node: [16]
     env:
-      NODE_ENV: "aws-ardevia-wyss"
+      NODE_ENV: "development"
 
     steps:
       - name: Checkout 🛎
