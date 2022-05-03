@@ -70,7 +70,7 @@ jobs:
           application_name: aws-cognito-react
           environment_name: aws-cognito-react-env
           region: eu-central-1
-          version_label: "e-learn-${{ steps.format-time.outputs.replaced }}"
+          version_label: "github-${{ steps.format-time.outputs.replaced }}"
           deployment_package: app/deploy.zip
 
       - name: Deployed!
